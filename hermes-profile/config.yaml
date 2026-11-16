@@ -1,0 +1,28 @@
+model:
+  default: eu.anthropic.claude-sonnet-5-5   # Claude Sonnet 5.5 on AWS Bedrock (EU inference profile)
+  provider: bedrock
+bedrock:
+  region: eu-west-1
+plugins:
+  enabled: []
+_config_version: 46
+agent: {}
+
+# The only tools this customer-facing agent has: the Brightleaf back-office actions.
+mcp_servers:
+  support:
+    command: python3
+    args: [/path/to/hermes-support-agent-demo/server.py]
+
+# No terminal, files, browser or web on any surface: MCP support tools only.
+platform_toolsets:
+  cli: [mcp-support]
+  telegram: [mcp-support]
+  whatsapp: [mcp-support]
+  slack: [mcp-support]
+  discord: [mcp-support]
+
+# Many customers share this agent, so nothing is remembered across people.
+memory:
+  memory_enabled: false
+  user_profile_enabled: false

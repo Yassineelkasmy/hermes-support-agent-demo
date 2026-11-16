@@ -1,0 +1,100 @@
+{
+  "BL-10482": {
+    "customer": "Sara Benali",
+    "email": "sara.benali@example.com",
+    "status": "shipped",
+    "carrier": "DHL Express",
+    "tracking": "JD014600003SE",
+    "total_eur": 149.0,
+    "items": [
+      {
+        "sku": "HUB-2",
+        "name": "Brightleaf Hub 2",
+        "qty": 1
+      },
+      {
+        "sku": "BULB-C4",
+        "name": "Color Bulb E27 (4-pack)",
+        "qty": 1
+      }
+    ],
+    "placed_day_offset": -7,
+    "eta_day_offset": 2
+  },
+  "BL-10377": {
+    "customer": "Omar Haddad",
+    "email": "omar.haddad@example.com",
+    "status": "delivered",
+    "carrier": "DPD",
+    "tracking": "05212345678901",
+    "total_eur": 89.0,
+    "items": [
+      {
+        "sku": "PLUG-S2",
+        "name": "Smart Plug Mini (2-pack)",
+        "qty": 1
+      },
+      {
+        "sku": "SENS-M1",
+        "name": "Motion Sensor",
+        "qty": 2
+      }
+    ],
+    "placed_day_offset": -45,
+    "delivered_day_offset": -41
+  },
+  "BL-10455": {
+    "customer": "Julie Martin",
+    "email": "julie.martin@example.com",
+    "status": "delivered",
+    "carrier": "DHL Express",
+    "tracking": "JD014600002SE",
+    "total_eur": 219.0,
+    "items": [
+      {
+        "sku": "THERM-1",
+        "name": "Brightleaf Thermostat",
+        "qty": 1
+      }
+    ],
+    "placed_day_offset": -13,
+    "delivered_day_offset": -9
+  },
+  "BL-10501": {
+    "customer": "Karim Ziani",
+    "email": "karim.ziani@example.com",
+    "status": "processing",
+    "total_eur": 59.0,
+    "items": [
+      {
+        "sku": "STRIP-L3",
+        "name": "Light Strip 3m",
+        "qty": 1
+      }
+    ],
+    "placed_day_offset": -2
+  },
+  "BL-10420": {
+    "customer": "Nadia Roussel",
+    "email": "nadia.roussel@example.com",
+    "status": "delayed",
+    "carrier": "DPD",
+    "tracking": "05212345678955",
+    "delay_reason": "Carrier sorting-centre backlog",
+    "total_eur": 129.0,
+    "items": [
+      {
+        "sku": "CAM-I1",
+        "name": "Indoor Camera",
+        "qty": 1
+      },
+      {
+        "sku": "PLUG-S2",
+        "name": "Smart Plug Mini (2-pack)",
+        "qty": 1
+      }
+    ],
+    "placed_day_offset": -20,
+    "eta_day_offset": 4
+  }
+}
